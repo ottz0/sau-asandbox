@@ -1,0 +1,16 @@
+.sau-form-feedback{
+	font-size:0.8rem;
+	&.error{
+		color:$red;
+	}
+}
+.sau-input-ico{
+	position:relative;
+	.sau-input-ico-fa { 
+		position: absolute;
+		right: 10px;
+		top:50%;
+		transform: translateY(-50%);
+		font-size: 1.5em;
+	}  
+}

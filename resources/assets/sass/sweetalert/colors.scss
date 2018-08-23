@@ -1,0 +1,25 @@
+$swal2-white:       rgb(204, 47, 47) !default;
+$swal2-black:       rgb(211, 98, 98) !default;
+$swal2-transparent: rgba($swal2-black, 0) !default;
+
+$swal2-success:        #a5dc86 !default;
+$swal2-success-border: rgba($swal2-success, .2) !default;
+$swal2-error:          #f27474 !default;
+$swal2-warning:        #f8bb86 !default;
+$swal2-info:           #373a3b !default;
+$swal2-question:       #072430 !default;
+
+$swal2-overlay:        rgba($swal2-white, .9);
+
+$swal2-close-button:               lighten($swal2-black, 10) !default;
+$swal2-close-button-hover:         #d55 !default;
+
+$swal2-input-border:               lighten($swal2-black, 15) !default;
+$swal2-input-border-focus:         #b4dbed !default;
+$swal2-input-box-shadow:           rgba($swal2-black, .09) !default;
+$swal2-input-box-shadow-focus:     #c4e6f5 !default;
+
+$swal2-validationerror-background: #ea7d7d !default;
+$swal2-validationerror-color:      $swal2-white !default;
+
+$swal2-focus-outline: rgba(50, 100, 150, .9);

@@ -1,0 +1,42 @@
+/* Override Bootstrap variables first - core SAU Bootstrap theme  */
+@import '../../vendor/LSAU-UX/src/assets/scss/sau-base/modules/variables-bootstrap';
+
+/* Include Bootstrap  */
+@import "../../vendor/LSAU-UX/src/libraries/bootstrap/scss/bootstrap";
+
+/* Include Bootstrap Vue  */
+@import '../../../node_modules/bootstrap-vue/dist/bootstrap-vue.css';
+
+/* Main Base styles  */
+@import '../../vendor/LSAU-UX/src/assets/scss/sau-base/modules/variables';
+@import '../../vendor/LSAU-UX/src/assets/scss/sau-base/modules/mixins';
+@import '../../vendor/LSAU-UX/src/assets/scss/sau-base/partials/global';
+@import '../../vendor/LSAU-UX/src/assets/scss/sau-base/partials/utilities';
+@import '../../vendor/LSAU-UX/src/assets/scss/sau-base/partials/nav';
+@import '../../vendor/LSAU-UX/src/assets/scss/sau-base/partials/footer';
+@import '../../vendor/LSAU-UX/src/assets/scss/sau-base/partials/sau-font-roboto';
+@import '../../vendor/LSAU-UX/src/assets/scss/sau-base/partials/sau-font-icons';
+@import '../../vendor/LSAU-UX/src/assets/scss/sau-base/partials/menus';
+@import '../../vendor/LSAU-UX/src/assets/scss/sau-base/partials/tables-data-bootstrap';
+@import '../../vendor/LSAU-UX/src/assets/scss/sau-base/partials/forms';
+@import '../../vendor/LSAU-UX/src/assets/scss/sau-base/partials/helpers';
+@import '../../vendor/LSAU-UX/src/assets/scss/sau-base/partials/boxes';
+@import '../../vendor/LSAU-UX/src/assets/scss/sau-base/partials/selects';
+
+/* Include FontAwesome  */
+@import '../../vendor/LSAU-UX/src/libraries/fontawesome-pro/scss/fontawesome';
+@import '../../vendor/LSAU-UX/src/libraries/fontawesome-pro/scss/fa-light';
+@import '../../vendor/LSAU-UX/src/libraries/fontawesome-pro/scss/fa-regular';
+@import '../../vendor/LSAU-UX/src/libraries/fontawesome-pro/scss/fa-solid';
+
+
+
+
+
+
+
+
+/* Unique SAU L2 Theme Styles  */
+@import 'theme'; 
+@import 'form';
+@import 'menu';

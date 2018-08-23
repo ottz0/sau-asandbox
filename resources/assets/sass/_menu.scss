@@ -1,0 +1,100 @@
+/* sau-menu Button */
+.dropbtn {
+    color: #3a3a3a;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the sau-menu content */
+.sau-menu {
+    position: relative;
+}
+
+/* sau-menu Content (Hidden by Default) */
+.sau-menu-content {
+    display: none;
+    position: absolute;
+    background: $white;
+    border: 1px solid $gray-200;
+    color:$gray-500;
+    z-index: 1;
+    box-sizing: border-box;
+    white-space: nowrap;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.9rem;
+    padding:5px 0 5px 0;
+}
+
+.sep{
+    width:100%;
+    position: relative;
+    padding:5px 0;
+}
+
+.sep:before { content: '';
+    position: absolute;
+    bottom: 50%;
+    border-bottom: 1px solid $gray-200;
+    width: 100%;
+    z-index:0;
+}
+
+.sau-menu-content:after, .sau-menu-content:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.sau-menu-content:after {
+	border-bottom-color: $white;
+	border-width: 13px;
+	margin-left: -13px;
+}
+.sau-menu-content:before {
+	border-bottom-color: #cecece;
+	border-width: 14px;
+	margin-left: -14px; 
+}
+
+
+
+
+/* Links inside the sau-menu */
+.sau-menu-content a {
+    color: $gray-600;
+    padding: 3px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of sau-menu links on hover */
+.sau-menu-content a:hover {
+   // background-color: #f1f1f1
+   color:$green;
+   font-weight: 600;
+}
+
+/* Show the sau-menu menu on hover */
+.sau-menu:hover .sau-menu-content {
+    display: block;
+}
+
+/* Change the background color of the sau-menu button when the sau-menu content is shown */
+.sau-menu:hover .dropbtn {
+    //background-color: #3e8e41;
+}
+
+
+
+
+
+
+
+

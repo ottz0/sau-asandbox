@@ -1,0 +1,38 @@
+$assetPath : "/img";
+
+
+body{
+	font-family: $sau-font-light;
+	color:$gray-600;
+}
+
+
+
+h1, .card-header{
+  color:$blue;
+}
+
+.sau-t-red{
+	color:$red;
+}
+.sau-t-green{
+	color:$green;
+}
+
+
+.swal2-container.swal2-shown{
+	background-color: rgba(255,255,255,.8) !important;
+}
+.swal2-modal{
+	border-radius: 0 !important;
+	border:2px solid $gray-200 !important;
+	padding:30px !important;
+}
+
+.swal2-styled{
+	border-radius:0 !important;
+}
+
+body {
+  position: relative;
+}
